@@ -1,0 +1,106 @@
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+.section-about {
+  background-color: #f7f7f7;
+  padding: 25rem;
+  margin-top: -17vh;
+}
+
+.heading-secondary {
+  display: inline-block;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+}
+
+.main-content {
+  display: flex;
+  gap: 6.4rem;
+}
+
+.heading-tertiary {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+.btn-text {
+  &:link,
+  &:visited {
+    font-size: 1.6rem;
+    color: $color-primary;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid $color-primary;
+    padding: 3px;
+    transition: all 0.4s ease;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+    color: #fff;
+    box-shadow: 0 1rem 2rem rgba(#000, 0.15);
+    transform: translateY(-2px);
+    border-radius: 2px;
+  }
+
+  &:active {
+    box-shadow: 0 0.5rem 1rem rgba(#000, 0.15);
+    transform: translateY(0);
+  }
+}
+
+.composition {
+  position: relative;
+  width: 100%;
+  &__photo {
+    width: 50%;
+    box-shadow: 0 1.5rem 4rem rgba(#000, 0.4);
+    border-radius: 2px;
+    position: absolute;
+    transition: all 0.3s;
+
+    &--p1 {
+      left: 0;
+      top: -2rem;
+    }
+
+    &--p2 {
+      left: 25%;
+      top: 1.5rem;
+    }
+
+    &--p3 {
+      left: 12%;
+      top: 8rem;
+    }
+
+    &:hover {
+      transform: scale(1.05) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba(#000, 0.5);
+      z-index: 20;
+    }
+  }
+
+  &:hover &__photo:not(:hover) {
+    transform: scale(0.95);
+  }
+}
