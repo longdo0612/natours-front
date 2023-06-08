@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: 'https://natours-longdo.vercel.app/api/v1',
+  baseUrl: 'https://natours-f770.onrender.com/api/v1',
   prepareHeaders: (headers, { getState }) => {
     const token = getState().auth.token;
 

@@ -5,7 +5,7 @@ const TourDetailsGallery = ({ tour }) => {
         <div key={image + index} className='picture-box'>
           <img
             className={`picture-box__img picture-box__img--${index + 1}`}
-            src={`https://natours-longdo.vercel.app/img/tours/${image}`}
+            src={`https://natours-f770.onrender.com/img/tours/${image}`}
             alt={tour.name + (index + 1)}
           />
         </div>

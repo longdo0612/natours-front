@@ -41,7 +41,7 @@ const MainNavigation = () => {
             <img
               src={
                 currentUser.preview ||
-                `https://natours-longdo.vercel.app/img/users/${currentUser.photo}`
+                `https://natours-f770.onrender.com/img/users/${currentUser.photo}`
               }
               alt='User photo'
               className='nav__user-img'

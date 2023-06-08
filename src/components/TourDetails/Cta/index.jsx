@@ -28,12 +28,12 @@ const TourDetailsCta = ({ tour }) => {
           <img src='/img/logo-white.png' alt='Natours logo' />
         </div>
         <img
-          src={`https://natours-longdo.vercel.app/img/tours/${tour.images[0]}`}
+          src={`https://natours-f770.onrender.com/img/tours/${tour.images[0]}`}
           alt={tour.name + 'image 1'}
           className='cta__img cta__img--1'
         />
         <img
-          src={`https://natours-longdo.vercel.app/img/tours/${tour.images[1]}`}
+          src={`https://natours-f770.onrender.com/img/tours/${tour.images[1]}`}
           alt={tour.name + 'image 2'}
           className='cta__img cta__img--2'
         />

@@ -50,7 +50,7 @@ const TourDetailsDescription = ({ tour }) => {
             {tour.guides.map((guide) => (
               <div key={guide._id} className='overview-box__detail'>
                 <img
-                  src={`https://natours-longdo.vercel.app/img/users/${guide.photo}`}
+                  src={`https://natours-f770.onrender.com/img/users/${guide.photo}`}
                   alt={guide.role}
                   className='overview-box__img'
                 />

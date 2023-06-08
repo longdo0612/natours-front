@@ -4,7 +4,7 @@ const TourDetailsHeader = ({ tour }) => {
       <div className='header__hero'>
         <div className='header__hero-overlay'>&nbsp;</div>
         <img
-          src={`https://natours-longdo.vercel.app/img/tours/${tour.imageCover}`}
+          src={`https://natours-f770.onrender.com/img/tours/${tour.imageCover}`}
           alt={tour.name}
           className='header__hero-img'
         />

@@ -3,7 +3,7 @@ const ReviewCard = ({ review }) => {
     <div className='reviews__card'>
       <div className='reviews__avatar'>
         <img
-          src={`https://natours-longdo.vercel.app/img/users/${review.user.photo}`}
+          src={`https://natours-f770.onrender.com/img/users/${review.user.photo}`}
           alt={review.user.name}
           className='reviews__avatar-img'
         />

@@ -4,7 +4,7 @@ const TourCardHeader = ({ imageCover, name }) => {
       <div className='card__picture'>
         <div className='card__picture-overlay'>&nbsp;</div>
         <img
-          src={`https://natours-longdo.vercel.app/img/tours/${imageCover}`}
+          src={`https://natours-f770.onrender.com/img/tours/${imageCover}`}
           alt={name}
           className='card__picture-img'
         />

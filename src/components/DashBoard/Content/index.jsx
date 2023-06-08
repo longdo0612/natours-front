@@ -96,7 +96,7 @@ const DashBoardContent = ({ user }) => {
             <img
               src={
                 user.preview ||
-                `https://natours-longdo.vercel.app/img/users/${user.photo}`
+                `https://natours-f770.onrender.com/img/users/${user.photo}`
               }
               alt='User photo'
               className='form__user-photo'
